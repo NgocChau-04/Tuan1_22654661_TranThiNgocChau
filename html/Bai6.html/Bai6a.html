@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai6a</title>
+    <style>
+        #khung1
+        {
+            width: 600px;
+            height: 800px;
+            background-color: rgb(122, 181, 244);
+            padding-top: 5px;
+            padding-left: 40px;
+            padding-right: 40px;
+            
+        }
+        #khung2
+        {
+            margin: auto;
+            width: 200px; 
+            background-color: aqua;
+            border-radius: 12px;
+            text-align: center;
+            background-size: cover;
+            border: 2px solid black;
+            box-shadow: 7px 7px rgb(134, 152, 169);
+        }
+        #khung3
+        {
+            padding-top: 5px;
+            text-align: center;
+        }
+        #ke1
+        {
+            border: 2px solid black;
+        }
+        #ke2
+        {
+            border: 2px solid rgb(199, 167, 125);
+        }
+        #font1
+        {
+            font-family: Times New Roman;
+            font-size: 20px;
+        }
+        #font2
+        {
+            text-align: center;
+            padding-top: 20px;
+        }
+        #font3
+        {
+            text-align: center;
+            padding-top: 20px;
+        }
+        #font4
+        {padding: auto;}
+        #w1
+        {width: 100px;}
+        #w2
+        {width: 200px;}
+        #w3
+        {width: 130px;}
+        #w4
+        {width: 30px;}
+        #w5
+        {width: 40px;} 
+        #w6
+        { width: 300px;
+        height: 100px;}
+        #ra1
+        { margin-left: 40px;}
+
+        
+    </style>
+</head>
+<body>
+    <div id="khung1">
+        <div id="khung2">
+            <b id="font1">Jackson</b>
+            <hr id="ke1">
+            <b id="font1">Electronics</b>
+        </div>
+        <h2 id="font2">Registration Form</h2>
+        <p id="font3">Register your Jackson Electronics product here</p>
+        <table width="1200px">
+            <tr>
+                <td width="210px">First Name:</td>
+                <td><input type="text" id="w1"> LastName: <input type="text" id="w1"> </td>
+            </tr>
+            <tr>
+                <td width="210px">Address #1:</td>
+                <td><input type="text" id="w2"></td>
+            </tr>
+            <tr>
+                <td width="210px">Address #2:</td>
+                <td><input type="text" id="w2"></td>
+            </tr>
+            <tr>
+                <td width="210px">City:</td>
+                <td> <input type="text" id="w3"> State: <input type="text" id="w4"> Zip: <input type="text" id="w5"></td>
+            </tr>
+            <tr>
+                <td width="210px">Country</td>
+                <td> <input type="button" value="United State" id="w3"> </td>
+            </tr>
+        </table>
+        <hr id="ke2"> 
+        <table width="1200px">
+            <tr>
+                <td width="210px"> Product</td>
+                <td>
+                    <select>
+                         <option>Option 01</option>
+                         <option>Option 02</option>
+                         <option>Option 03</option>
+                         <option>Option 04</option>
+                    </select>
+                </td>
+            <tr>
+                 <td width="210px">Date Purchased:</td>
+                 <td> <input type="text" id="w3">
+            </tr>
+            <tr>
+                 <td width="210px">Serial #:</td>
+                 <td> <input type="text" id="w3">
+            </tr>
+            </tr>
+            <tr>
+                <td>Used for:</td>
+                <td><input type="radio" name="ra" id="" value="abc"><label for="home">Home</label>
+                    <input type="radio" name="ra" id="ra1" value="abc"><label for="Education">Education</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="radio" name="ra" id="" value="abc"><label for="home">Business</label>
+                    <input type="radio" name="ra" id="ra1" value="abc"><label for="Education">Other</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="radio" name="ra" id="" value="abc"><label for="home">Goverment</label>
+                </td>
+            </tr>
+            <tr>
+                <td>System (check all that apply):</td>
+                <td><input type="checkbox" name="cb" id=""><label for="name">Windows</label>
+                    <input type="checkbox" name="cb" id="ra1"><label for="name">UNIX</label>
+                </td>
+            </tr>
+                <td></td>
+                <td><input type="checkbox" name="cb" id=""><label for="name">Macintosh</label>
+                    <input type="checkbox" name="cb" id="ra1"><label for="name">Other</label>
+                </td>
+
+        </table>
+        <hr id="ke2">
+        <table width="770px">
+            <tr>
+                <td width="210px" id="font4" >Comments?</td>
+                <td><input type="text" name="commnet" id="w6"></td>
+
+            </tr>
+
+        </table>
+         <div id="khung3">
+             <button type="button">Click to Register</button>
+             <button type="button">Click to Cancel</button>
+         </div>
+
+    </div>
+    
+</body>
+</html>
